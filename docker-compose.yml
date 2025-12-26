@@ -4,10 +4,10 @@ services:
     container_name: librespeed
     hostname: librespeed
     restart: always
-    mac_address: ${librespeedmac}
     networks:
       macvlan:
         ipv4_address: ${librespeed4}
+        mac_address: ${librespeedmac}
 
 networks:
   macvlan:
