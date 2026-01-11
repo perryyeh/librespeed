@@ -1,2 +1,2 @@
 # librespeed
-librespeed config
+build for armbian
