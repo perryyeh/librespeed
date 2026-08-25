@@ -4,6 +4,8 @@ services:
     container_name: librespeed
     hostname: librespeed
     restart: always
+    volumes:
+      - ./config:/config
     networks:
       macvlan:
         ipv4_address: ${ipv4}
